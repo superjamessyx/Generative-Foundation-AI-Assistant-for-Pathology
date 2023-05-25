@@ -2,7 +2,7 @@
 
 
 
-![图片1](./img/logo.png)
+<div align=center> <img src="./img/logo.png"/> </div>
 
 
 
