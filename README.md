@@ -2,7 +2,7 @@
 
 
 
-![图片1](C:\Users\Huawei\Pictures\图片1.png)
+![图片1](./img/logo.png)
 
 
 
