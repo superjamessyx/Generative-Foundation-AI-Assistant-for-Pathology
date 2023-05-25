@@ -48,3 +48,16 @@ In addition, we plan to train and release four versions of the CLIP model, which
 
 
 
+If you find PathAsst useful for your work, please cite using the following BibTeX:
+
+```bibtex
+@misc{sun2023pathasst,
+      title={PathAsst: Redefining Pathology through Generative Foundation AI Assistant for Pathology}, 
+      author={Yuxuan Sun and Chenglu Zhu and Sunyi Zheng and Kai Zhang and Zhongyi Shui and Xiaoxuan Yu and Yizhi Zhao and Honglin Li and Yunlong Zhang and Ruojia Zhao and Xinheng Lyu and Lin Yang},
+      year={2023},
+      eprint={2305.15072},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
