@@ -24,7 +24,7 @@ Hence you need the following requirements,
 ...
 ``````
 
-this code will convert the **book.pdf** to **book.docx**, then convert to **book.html**, which will be prased and extracted the figures and captions. The extracted results will be saved in dict as **book.json**.
+this code will convert the **book name.pdf** to **book name.docx**, then convert to **book name.html**, which will be prased and extracted the figures and captions. The extracted results will be saved in dict as **book name.json**.  
 **book name.json** records all figures' names (or replace with relative path) and their correspending captions.
 
 
