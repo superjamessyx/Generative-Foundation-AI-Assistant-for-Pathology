@@ -1,6 +1,6 @@
-# PDF extracter
+# Figure extracter
 
-This tool is used for extracting the specific figures with their corresponding captions / descriptions from the e-books (pdf format). The main idea is to convert the book file for **.pdf** format to **.html**, then parsing HTML file to obtain the specifical contents by the corresponding *\<sign\>*.
+This tool is used for extracting the specific figures with their corresponding captions / descriptions from the e-books (pdf format). The main idea is to convert the book file for **.pdf** format to **.html** format, then parsing HTML file to obtain the specifical contents by the corresponding *\<sign\>*.
 Hence you need the following requirements,
 
 + [pandoc](https://github.com/jgm/pandoc)
@@ -13,14 +13,20 @@ Hence you need the following requirements,
 + put the **batch_process.py** in YOUR BOOKS FOLDER
 + run the python script **batch_process.py**
 + this code will generate the folders for each e-book (.pdf) as following file structure  
+``````
 ├── **Book name**  
 │    ├── book name.pdf  
 │    ├── book name.html  
-│    ├── book name.doc  
+│    ├── book name.docx  
 │    ├── book name.json  
-│    ├── **mdeia convert**  
-│    │        ├───Fig.1.jpg  
-......
+│    ├── mdeia convert 
+│    │    ├───Fig.1.jpg  
+...
+``````
+
+this code will convert the **book.pdf** to **book.docx**, then convert to **book.html**, which will be prased and extracted the figures and captions. The extracted results will be saved in dict as **book.json**.
+**book name.json** records all figures' names (or replace with relative path) and their correspending captions.
+
 
 
  
