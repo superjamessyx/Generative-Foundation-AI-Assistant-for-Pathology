@@ -6,7 +6,7 @@ Hence you need the following requirements,
 + [pandoc](https://github.com/jgm/pandoc)
 + Python packages:
   + [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/): HTML parsing
-  + [tqdm](https://github.com/tqdm/tqdm): Visualize execution 
+  + [tqdm](https://github.com/tqdm/tqdm): Visualize execution process
 
 ---
 ## Quick start
@@ -23,4 +23,5 @@ Hence you need the following requirements,
 ......
 
 
+**book name.json** records all figures' names (relative path) and their correspending captions.
  
