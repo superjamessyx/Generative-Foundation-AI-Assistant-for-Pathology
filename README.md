@@ -32,7 +32,11 @@ As advances in large language models (LLMs) and multimodal techniques continue t
 
 
 
+## Usage
 
+- For book's image-text crawling, please refer to [tools/fig_caption_extracter](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/tools/fig_caption_extracter)  (readme)
+
+- For sub-figure detection, please refer to [tools/sub-figure_detection](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/tools/sub-figure_detection) (readme)
 
 We will continue to open source the following content as soon as possible:
 
