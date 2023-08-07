@@ -34,21 +34,21 @@ As advances in large language models (LLMs) and multimodal techniques continue t
 
 ## Usage
 
-- For book's image-text crawling, please refer to [tools/fig_caption_extracter](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/tools/fig_caption_extracter)  (readme)
+- For book's image-text crawling, please refer to [fig_caption_extracter](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/fig_caption_extracter)  (readme)
 
-- For sub-figure detection, please refer to [tools/sub-figure_detection](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/tools/sub-figure_detection) (readme)
+- For sub-figure detection, please refer to [sub-figure_detection](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/sub-figure_detection) (readme)
 
 We will continue to open source the following content as soon as possible:
 
 - [ ] A trained ConvNext-Tiny model specifically designed for selecting pathology images.
 
-- [ ] An annotated 2K bounding box data for subfigure detection, alongside the trained YOLOv7 model.
+- [x] An annotated 2K bounding box data for subfigure detection, alongside the trained YOLOv7 model.
 
 - [x] Scripts for automated extraction of image-text pairs from PDF books.
 
 - [ ] A fine-tuned LLaMA-7B model intended for sub-caption splitting and caption refining.
 
-- [ ] A collection of 100K processed PubMed image-text pairs.
+- [ ] A collection of 100K pathology PubMed image-text pairs.
 
 In addition, we plan to train and release four versions of the CLIP model, which will be fine-tuned using more than 200K pathology samples, including clip-vit-base-patch16, clip-vit-base-patch32, clip-vit-large-patch14, and clip-vit-large-patch14-336.
 
