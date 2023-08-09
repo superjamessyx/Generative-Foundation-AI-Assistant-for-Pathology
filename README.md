@@ -48,7 +48,7 @@ We will continue to open source the following content as soon as possible:
 
 - [x] Scripts for automated extraction of image-text pairs from PDF books.
 
-- [ ] A fine-tuned LLaMA-7B model intended for sub-caption splitting and caption refining.
+- [x] A fine-tuned LLaMA-7B model intended for sub-caption splitting and caption refining.
 
 - [ ] A collection of 100K pathology PubMed image-text pairs.
 
