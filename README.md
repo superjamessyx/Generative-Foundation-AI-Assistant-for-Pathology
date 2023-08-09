@@ -6,7 +6,7 @@
 
 
 
-Note: Relative sources will be released **this month**, keep focusing!
+
 
 ## Abstract
 
@@ -39,8 +39,9 @@ As advances in large language models (LLMs) and multimodal techniques continue t
 - For sub-figure detection, please refer to [sub-figure_detection](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/sub-figure_detection) (Readme)
 - For pathology image selection, please refer to [pathology_classifier](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/pathology_classifier) (Readme, model released at [ convnext-pathology-classifier](https://huggingface.co/jamessyx/convnext-pathology-classifier))
 - For pathology image caption split&refine, please refer to [pathasst_caption_tool](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/pathasst_caption_tool) (Readme, model released at [pathasst_caption_tool](https://huggingface.co/jamessyx/pathasst_caption_tool) )
+- We have released the semi-processed pathology-specific data in PubMed, you can furthur process it using our tools. The data can be found at [ pubmed_pathology_single_common](https://huggingface.co/datasets/jamessyx/pubmed_pathology_single_common) and [ pubmed_pathology_single_nocommon](https://huggingface.co/datasets/jamessyx/pubmed_pathology_single_nocommon). Note that we will release our fully processed dataset soon.
 
-We will continue to open source the following content as soon as possible:
+ We will continue to open source the following content as soon as possible:
 
 - [x] A trained ConvNext-Tiny model specifically designed for selecting pathology images.
 
@@ -50,7 +51,7 @@ We will continue to open source the following content as soon as possible:
 
 - [x] A fine-tuned LLaMA-7B model intended for sub-caption splitting and caption refining.
 
-- [ ] A collection of 100K pathology PubMed image-text pairs.
+- [x] A collection of 100K pathology PubMed image-text pairs.
 
 In addition, we plan to train and release four versions of the CLIP model, which will be fine-tuned using more than 200K pathology samples, including clip-vit-base-patch16, clip-vit-base-patch32, clip-vit-large-patch14, and clip-vit-large-patch14-336.
 
