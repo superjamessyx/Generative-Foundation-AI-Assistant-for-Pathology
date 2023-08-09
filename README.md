@@ -34,13 +34,15 @@ As advances in large language models (LLMs) and multimodal techniques continue t
 
 ## Usage
 
-- For book's image-text crawling, please refer to [fig_caption_extracter](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/fig_caption_extracter)  (readme)
+- For book's image-text crawling, please refer to [fig_caption_extracter](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/fig_caption_extracter)  (Readme)
 
-- For sub-figure detection, please refer to [sub-figure_detection](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/sub-figure_detection) (readme)
+- For sub-figure detection, please refer to [sub-figure_detection](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/sub-figure_detection) (Readme)
+- For pathology image selection, please refer to [pathology_classifier](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/pathology_classifier) (Readme, model released at [ convnext-pathology-classifier](https://huggingface.co/jamessyx/convnext-pathology-classifier))
+- For pathology image caption split&refine, please refer to 
 
 We will continue to open source the following content as soon as possible:
 
-- [ ] A trained ConvNext-Tiny model specifically designed for selecting pathology images.
+- [x] A trained ConvNext-Tiny model specifically designed for selecting pathology images.
 
 - [x] An annotated 2K bounding box data for subfigure detection, alongside the trained YOLOv7 model.
 
