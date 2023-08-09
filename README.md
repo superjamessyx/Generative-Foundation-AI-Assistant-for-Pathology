@@ -38,7 +38,7 @@ As advances in large language models (LLMs) and multimodal techniques continue t
 
 - For sub-figure detection, please refer to [sub-figure_detection](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/sub-figure_detection) (Readme)
 - For pathology image selection, please refer to [pathology_classifier](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/pathology_classifier) (Readme, model released at [ convnext-pathology-classifier](https://huggingface.co/jamessyx/convnext-pathology-classifier))
-- For pathology image caption split&refine, please refer to 
+- For pathology image caption split&refine, please refer to [pathasst_caption_tool](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/pathasst_caption_tool) (Readme, model released at [pathasst_caption_tool](https://huggingface.co/jamessyx/pathasst_caption_tool) )
 
 We will continue to open source the following content as soon as possible:
 
