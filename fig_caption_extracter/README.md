@@ -2,7 +2,7 @@
 
 This tool is used for extracting the specific figures with their corresponding captions / descriptions from the e-books. The main idea is to convert the book file for **.doc** format to **.html** format, then parsing HTML file to obtain the specifical contents by the corresponding *\<sign\>*.
 
-**Note:** If the e-book format is **.pdf**, you need to prepare a transfer tool to convert the format from **.pdf** to **.docx**.
+**Note:** If the e-book format is **.pdf**, you need to prepare a transfer tool (such as [Adobe Acrboat](https://acrobat.adobe.com/)) to convert the format from **.pdf** to **.docx**.
 
 Hence you need the following requirements,
 
