@@ -2,7 +2,7 @@
 
 
 
-This is a ConvNext-tiny model trained on 30K annotations on if o
+This is a ConvNext-tiny model trained on 30K annotations on if image is belongs to the pathology image or non-pathology image.
 
 ## Usage
 
