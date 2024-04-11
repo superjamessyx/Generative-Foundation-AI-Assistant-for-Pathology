@@ -40,6 +40,7 @@ As advances in large language models (LLMs) and multimodal techniques continue t
 - For pathology image selection, please refer to [pathology_classifier](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/pathology_classifier) (Readme, model released at [ convnext-pathology-classifier](https://huggingface.co/jamessyx/convnext-pathology-classifier))
 - For pathology image caption split&refine, please refer to [pathasst_caption_tool](https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology/tree/main/pathasst_caption_tool) (Readme, model released at [pathasst_caption_tool](https://huggingface.co/jamessyx/pathasst_caption_tool) )
 - We have released the PathCap dataset, the dataset can be downloaded from [huggingface](https://huggingface.co/datasets/jamessyx/PathCap)
+- We have released the PathInstruct dataset (PubMed part), the dataset can be downloaded from [huggingface](https://huggingface.co/datasets/jamessyx/PathInstruct).  We will consider release some mannual annotated data or model generated captions in the future.
 - We have released the PathCLIP-Base model, the model can be downloaded from [huggingface](https://huggingface.co/jamessyx/pathclip)
 
  We will continue to open source the following content as soon as possible:
